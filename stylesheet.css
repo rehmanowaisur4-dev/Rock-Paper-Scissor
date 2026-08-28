@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at 50% 50%, #4a90e2 0%, #000000 100%);;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 60px;
+    color: black;
+    font-size: 45px;
+    text-shadow: 0 0 44px blue;
+}
+h2{
+    font-size: 40px;
+    color: black;
+    text-shadow: 0 0 44px blue;
+}
+
+button {
+    margin: 15px;
+    padding: 15px 35px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    color: black;
+}
+
+#resultBox {
+    width: 350px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 15px;
+    box-shadow: 0 0 20px blue;
+}
+
+#result {
+    color: blue;
+    font-size: 30px;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.score-board > div {
+    width: 130px;
+    padding: 15px 10px;
+    text-align: center;
+
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px black;
+}
+
+.score-board h3 {
+    margin: 0 0 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.score-board span {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+
+    text-shadow: 0 0 10px navy;
+}
+.creater{
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px blue;
+}
